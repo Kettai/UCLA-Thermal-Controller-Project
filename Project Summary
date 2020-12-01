@@ -1,0 +1,3 @@
+This is an arduino electronic that was connected to a thermal vacuum. 
+This electronic would control how much voltage would enter the machine based on the internal temperature of the vaccuum.
+The temperature was detected using a thermocouple and the voltage was controlled using relays. This was essentially a "Stop and go", or "ON/OFF" PID controller. 
