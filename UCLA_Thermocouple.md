@@ -2,13 +2,21 @@
 #include <Wire.h>
 
 #include <SPI.h>
+
 #include <SD.h>
+
 #include <max6675.h>
+
 #include <LiquidCrystal_I2C.h>
 LiquidCrystal_I2C lcd(0x27, 16, 2);
-
 int thermoSO = 4;
+
+
+
+
 int thermoCS = 5;
+
+
 int thermoCLK = 6;
 
 MAX6675 thermocouple(thermoCLK, thermoCS, thermoSO);
