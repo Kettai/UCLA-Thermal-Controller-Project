@@ -1,5 +1,6 @@
 # UCLA-Thermal-Controller-Project
 #include <Wire.h>
+
 #include <SPI.h>
 #include <SD.h>
 #include <max6675.h>
